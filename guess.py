@@ -1,10 +1,12 @@
 import random
 def funny():
+  print('This is a Guessing Game')
+  print("Ready to play?")
   flag = False
   guess = random.randint(1, 10)
   while flag == False:
     try:
-      rando = int(input("guess my number, it's between 1-10: "))
+      rando = int(input("Enter a number 1-10: "))
     except:
       print(rando,"isn't a number, dude.")
     else:
