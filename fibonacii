@@ -1,0 +1,4 @@
+fido = [0, 1]
+for i in range(1,10):
+    fido.append(fido[i] + fido[i-1])
+print (fido)
