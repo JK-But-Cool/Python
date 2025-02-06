@@ -22,10 +22,16 @@ def my_math(x,y) :
   return z
 
 def main():
-  my_num_1 = 5
-  my_num_2 = 2
-  sum = my_math(my_num_1, my_num_2)
-  print("The sum of", my_num_1, "+", my_num_2, "=",sum)
+   flag = False
+   while flag == False:
+    try:
+        woah0 = int(input("i need number!!!: "))
+        haow0 = int(input("i need more number!!!: "))
+    except:
+        print ("that is no number!!!")
+    else:
+        print(woah0,"+",haow0,"=",woah0+haow0)
+        flag = True
 
 main()
 # print('Done with Challenge 1')
