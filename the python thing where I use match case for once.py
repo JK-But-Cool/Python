@@ -75,14 +75,14 @@ def argh3(woah3, haow3, uh):
   uh = uh.lower()
   match uh:
     case "subtraction":
-      return woah3 - haow3
+      print(woah3,"-",haow3,"=",woah3 - haow3)
     case "multiplication":
-      return woah3 * haow3
+      print(woah3,"*",haow3,"=",woah3 * haow3)
     case "division":
-      return woah3 / haow3
+      print(woah3,"/",haow3,"=",woah3 / haow3)
     case _:
-      return woah3 + haow3
-print(argh3(5, 10, "division"))
+      print(woah3,"+",haow3,"=",woah3 + haow3)
+argh3(5, 10, "subtraction")
 print('''
 ----------------------------------------------------
 ''')
