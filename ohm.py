@@ -1,6 +1,5 @@
 print(ord('Ω'))
 def diy():
-   print("i'm feelin lazy... you make the list for me.")
    flag = False
    while flag == False:
     try:
