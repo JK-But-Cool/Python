@@ -88,7 +88,7 @@ def argh3(woah3, haow3, uh):
       print(woah3,"/",haow3,"=",woah3 / haow3)
     case _:
       print(woah3,"+",haow3,"=",woah3 + haow3)
-argh3(5, 10, "subtraction")
+argh3(5, 10, "addition")
 print('''
 ----------------------------------------------------
 ''')
